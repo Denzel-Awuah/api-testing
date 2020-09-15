@@ -1,0 +1,140 @@
+
+form {
+
+font-family: "Arial Black", Gadget, sans-serif;
+padding-top: 5em;
+text-align: center;
+}
+
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidebar a {
+  padding: 6px 8px 12px 17px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  display: block;
+}
+
+.sidebar   a:hover{
+color: green;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+
+}
+
+
+div a {
+  webkit-appearance: button;
+  moz-appearance: button;
+  appearance: button;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+header{
+text-align: center;
+border-bottom: solid;
+background-color: #0B9E0B;
+font-family: "Arial Black", Gadget, sans-serif;
+}
+
+form div {
+  padding-bottom: 20px;
+}
+
+
+label{
+  display:  inline-block;
+
+}
+
+body{
+  background-color: #93FF77;
+}
+
+/* displaydetails.html */
+.divdets {
+  position: absolute;
+  top:50%;
+  left:25%;
+  margin-top:-50px;
+  margin-left:-70px;
+  border: 5px solid blue;
+  border-spacing:50px;
+}
+
+
+/* The Main Page (index.html) */
+.movie-container{
+  display: grid;
+ grid-template-columns: auto auto auto;
+ background-color: #145a32;
+ padding: 10px;
+}
+
+.movie-container input {
+  color: black;
+  font-size: 17px;
+  background-color:yellow;
+}
+
+.movie-container input:hover {
+  color: red;
+  font-size: 20px;
+}
+
+
+#plot{
+width: 13em;
+height: 8em;
+}
+
+.movie-item{
+  background-color: #93FF77;
+ border: 1px solid black;
+ padding: 20px;
+ font-size: 30px;
+ text-align: center;
+}
+
+.nextpage{
+  text-align: right;
+}
+
+
+.showerror{
+text-align: center;
+
+}
+
+.logs a, .logs2 a{
+  text-align: right;
+  color: black;
+}
+
+
+.logs a:hover, .logs2 a:hover{
+  color: red;
+}
+
+
+
+#usernameError, #nameError, #emailError,
+#passwordError, #titleError, #runtimeError,
+#actorsError,#studioError, #plotError{
+  font-size: 20px;
+  color: red;
+}
